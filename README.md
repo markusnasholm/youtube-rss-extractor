@@ -12,3 +12,7 @@ This script is intended for use with newsboat or similar RSS readers, allowing s
 or
 
     $ echo URL | youtube-rss-extractor URL_FILE
+
+## Example
+
+    $ youtube-rss-extractor $HOME/.newsboat/urls <<< https://www.youtube.com/user/PewDiePie 
